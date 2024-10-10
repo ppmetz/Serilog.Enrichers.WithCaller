@@ -2,23 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>richardburce, 0xced, pmetz-steelcase</Authors>
+    <Authors>richardburce, 0xced, ppmetz</Authors>
     <Description>Log message Enrichter, adding caller and code line infos</Description>
-    <Copyright>nblumhardt / steelcase / serilog authors</Copyright>
-    <AssemblyVersion>1.3.0.0</AssemblyVersion>
-    <FileVersion>1.3.0.0</FileVersion>
+    <Copyright>nblumhardt / ppmetz / serilog authors</Copyright>
+    <AssemblyVersion>1.3.0.1</AssemblyVersion>
+    <FileVersion>1.3.0.1</FileVersion>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\..\..\SCSKeyPair.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Version>1.3.0</Version>
-    <Company>Steelcase</Company>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageReleaseNotes>Add option to include file information in the caller property (#1)</PackageReleaseNotes>
     <PackageLicenseFile>MIT License.txt</PackageLicenseFile>
-    <RepositoryUrl>https://github.com/pmetz-steelcase/Serilog.Enrichers.WithCaller</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ppmetz/Serilog.Enrichers.WithCaller</RepositoryUrl>
     <RepositoryType>PackagePublish/2.0.0</RepositoryType>
-    <PackageProjectUrl>https://github.com/pmetz-steelcase/Serilog.Enrichers.WithCaller</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ppmetz/Serilog.Enrichers.WithCaller</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
     <ApplicationIcon>icon.ico</ApplicationIcon>
