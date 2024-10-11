@@ -1,12 +1,9 @@
 ﻿using Serilog.Configuration;
 
-namespace Serilog.Enrichers.WithCaller
+namespace Serilog.Enrichers.WithCaller;
+
+public static class LoggerCallerEnrichmentConfiguration
 {
-    public static class LoggerCallerEnrichmentConfiguration
-    {
-        public static LoggerConfiguration WithCaller(this LoggerEnrichmentConfiguration enrichmentConfiguration, bool includeFileInfo = false, int maxDepth = 1)
-        {
-            return enrichmentConfiguration.With(new CallerEnricher(includeFileInfo, maxDepth));
-        }
-    }
+    public static LoggerConfiguration WithCaller(this LoggerEnrichmentConfiguration enrichmentConfiguration, bool includeFileInfo = false, int maxDepth = 1)
+    => enrichmentConfiguration.With(new CallerEnricher(includeFileInfo, maxDepth));
 }
