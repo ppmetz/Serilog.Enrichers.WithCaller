@@ -9,5 +9,5 @@ Example OutputTemplate: [{Timestamp:HH:mm:ss} {Level:u3}] {Message} (at {Caller}
 Since version 1.1.0 (thanks to 0xced), supports including file info in caller property
 Since version 1.2.0 (thanks to Khaos66), supports adding max frame depth of stack 
 Since version 1.3.0 (thanks to wexman), own output template definition possible, 
-  for example
+  for example  
   {Timestamp:HH:mm:ss.fff} {Level:u3} [{CallerType}.{CallerMethod}({CallerParameters}) {CallerFileName}:{CallerLineNo}] {Message:lj}{NewLine}{Exception}
