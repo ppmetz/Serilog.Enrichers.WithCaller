@@ -336,7 +336,3 @@ ASALocalRun/
 
 # CodeRush
 .cr/
-
-# MigrationBackup
-MigrationBackup/
-/SCSKeyPair.snk
